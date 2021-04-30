@@ -1,0 +1,277 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f2eeee;
+}
+
+/*top part start */
+#my-navigation {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #fff;
+  position: absolute;
+  z-index: 10;
+}
+
+#my-navigation .navbar-toggle {
+  display: block;
+  border: 0;
+}
+
+#my-navigation .navbar-header {
+  float: none;
+}
+
+#my-navigation .navbar-header span {
+  color: #dbdbdb;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#my-navigation .navbar-toggle:hover {
+  background: none;
+  cursor: pointer;
+  color: lightgreen;
+}
+
+#color:hover {
+  color: lightgreen;
+}
+
+#my-navigation ul li {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+#my-navigation a {
+  color: #fff;
+}
+
+#my-navigation a:hover {
+  color: lightgreen;
+}
+
+#my-navigation .navbar-right {
+  float: left !important;
+}
+
+#my-navigation .iconbar-right {
+  float: right;
+  position: relative;
+  top: -3px;
+  padding-left: 10px;
+}
+
+#my-navigation .iconbar-left {
+  float: left;
+}
+
+/*nav-bar ends here*/
+
+/*carousel codes starts*/
+
+.my-container {
+  padding: 0;
+  color: #fff;
+}
+
+.carousel .item {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/Hielo/slide01.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.carousel .item_2 {
+  background-image: url("../../img/Hielo/slide02.jpg");
+}
+
+.carousel .item_3 {
+  background-image: url("../../img/Hielo/slide03.jpg");
+}
+
+.carousel .item_4 {
+  background-image: url("../../img/Hielo/slide04.jpg");
+}
+
+.carousel .item_5 {
+  background-image: url("../../img/Hielo/slide05.jpg");
+}
+
+/*banner*/
+.banner {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  
+}
+
+.banner  h1 {
+  font-size: 100px;
+  font-weight: 300;
+}
+
+.banner  p {
+  font-size: 12px;
+  color: #a09b9b;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+
+.banner hr {
+  width: 35%;
+}
+
+/*top part ends here*/
+
+/*two_section start*/
+
+.two_section {
+  margin: 80px auto;
+}
+
+.two_section img {
+  width: 100%;
+}
+
+.two_section .box {
+  background-color: #fff;
+  width: 95%;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.two_section .box h6 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  font-size: 10px;
+  color: #807b7b;
+  margin-top: 40px;
+}
+
+.two_section .box h3 {
+  font-size: 23px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.two_section .box hr {
+  margin: 0 auto;
+  width: 45%;
+  height: 2px;
+}
+
+.two_section .box p {
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.7;
+  padding: 20px 37px;
+  color: #807b7b;
+}
+
+.two_section button {
+  margin-bottom: 40px;
+  width: 140px;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.margin_left {
+  margin-left: 5px;
+}
+
+/*two_section ends*/
+
+/*full Quote start*/
+
+.full_quote {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/Hielo/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.text h6 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  font-size: 10px;
+  font-weight: 100;
+  color: #afacac;
+}
+
+.text h3 {
+  font-size: 23px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.text hr {
+  margin: 0 auto;
+  width: 40%;
+}
+
+/*full Quote ends*/
+
+/*four section starts here*/
+
+.four_section {
+ margin: 80px auto;
+}
+
+.four_section img {
+  width: 100%;
+  border: 10px solid #fff;
+  margin-top: 50px;
+}
+
+/*four section ends here*/
+
+/*footer*/
+
+.footer {
+  width: 100%;
+  background-color: #000;
+  padding: 70px 0;
+}
+
+.footer span {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #afacac;
+}
+
+.footer p {
+  font-size: 11px;
+  color: #afacac;
+  padding-top: 25px;
+}
+
+/*footer ends*/
+
+
+
+
+@media(max-width:768px) {
+  .banner  h1 {
+    font-size: 70px;
+  }
+
+  .banner  p {
+    font-size: 12px;
+  }
+
+  .my-collapse {
+    padding-left: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #fff;
+  }
+
+}
